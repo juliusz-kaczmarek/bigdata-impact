@@ -32,6 +32,21 @@ To use **BigData Impact**, ensure the following prerequisites are met:
      ```
 
    - Replace `"config_name.txt"` with the name of your adjusted GCSim config file and `"variable_sheet_name.csv"` with the name of your variable sheet.
+  
+### Output
+
+After running the script, you will find the following outputs in your directory:
+
+1. **Adjusted Config Files:**
+   - Separate config files will be created based on your variable sheet, reflecting the specific parameters for each simulation.
+
+2. **JSON Outputs:**
+   - JSON files containing detailed simulation results for each configuration.
+
+3. **CSV Result Sheet:**
+   - A CSV file summarizing the data you've selected for analysis, allowing for easy review and further manipulation.
+
+These outputs provide a comprehensive set of results and configurations for in-depth analysis and comparison.
 
 ## Authors
 
