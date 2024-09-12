@@ -19,10 +19,19 @@ To use **BigData Impact**, ensure the following prerequisites are met:
 ### Executing program
 
 1. **Prepare the GCSim Config:**
-   - Adjust your GCSim config to include `$charX` (where X is the character number 1-4) instead of specific weapon, artifact, or stat entries. This references the variable sheet for dynamic data replacement.
+   - Adjust your GCSim config to include `$charX` (where X is the character number 1-4) instead of specific weapon, artifact, or stat entries. This references the variable sheet for dynamic data replacement. Please refer to `example_config.txt` for guidance.
 
 2. **Set Up the Variable Sheet:**
    - Use `variable_sheet_template.csv` for setting up your data. Follow GCSim’s naming conventions (e.g., `staffofhoma` instead of `Staff of Homa`). Refer to `example_variable_sheet.csv` for guidance. Leave character columns empty if no changes are needed.
+  
+3. **Execute the Program:**
+   - Run the following command to start the simulation:
+
+     ```bash
+     python batchsim.py -cfg "config_name.txt" -var "variable_sheet_name.csv"
+     ```
+
+   - Replace `"config_name.txt"` with the name of your adjusted GCSim config file and `"variable_sheet_name.csv"` with the name of your variable sheet.
 
 ## Authors
 
